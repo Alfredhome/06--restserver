@@ -1,3 +1,6 @@
+//instalar el paquete mongoose npm i mongoose npm i mongoose
+//crear carpeta database y dentro config.js
+//crear en la carpeta de models usuario.js
 
 
 const mongoose = require('mongoose');
@@ -23,3 +26,6 @@ const dbConnection = async () => {
 module.exports = {
     dbConnection
 }
+
+
+
